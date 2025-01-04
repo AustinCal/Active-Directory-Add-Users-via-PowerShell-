@@ -35,8 +35,14 @@ Adapter 2: Connects to a private network, which the client machines will use to 
 
 # 5. Automate User Creation
 - Develop a PowerShell script to automatically add 1,000 user accounts to Active Directory. This script will streamline the process of creating a large number of users for the network.
-- Before executing the script you must "Set-Execution Policy" to unrestricted
+- Before executing the script you must "Set-Execution Policy" to unrestricted. Also I misspelled "creating" but you can adjust the script prior to running. You will need to also run the script by opening it in the PowerShell ISE (run as admin) shell so the script recognize the text file
+
+![](https://github.com/user-attachments/assets/38caf99a-8fad-4651-88e0-7e3532be2b93)
+
 # 6. Create Client Virtual Machine 
 - Create the second virtual machine using the Windows 10 ISO.
 - Connect this VM to the private network set up in VirtualBox and configure it as Client 1.
 - Have the Windows 10 machine log in using one of the domain accounts created earlier in Active Directory, demonstrating that it is successfully integrated into the domain.
+
+![image](https://github.com/user-attachments/assets/c2efbb89-7420-48bc-a41a-5aa2d79cc472)
+
