@@ -19,9 +19,15 @@ Adapter 2: Connects to a private network, which the client machines will use to 
 # 3. Install Active Directory and Create the Domain
 - On the Domain Controller VM, install Active Directory through Windows Server 2019.
 - Create a domain within Active Directory for your network. This domain will be used for managing user accounts and authentication.
+
+![image](https://github.com/user-attachments/assets/399244df-cdb6-4b67-bb31-42a45aa85b7a)
+
 # 4. Set Up NAT and Routing
 - Configure Network Address Translation (NAT) and routing on the Domain Controller so that private clients can access the internet.
 - Enable DHCP on the Domain Controller to automatically assign IP addresses to the client machines on the private network.
+
+![image](https://github.com/user-attachments/assets/7f89d584-51e4-4e06-b6e4-0cfb64e3c3be)
+
 # 5. Automate User Creation
 - Develop a PowerShell script to automatically add 1,000 user accounts to Active Directory. This script will streamline the process of creating a large number of users for the network.
 # 6. Create Client Virtual Machine 
