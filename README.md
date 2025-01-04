@@ -2,7 +2,7 @@
 # Project Overview
 This project involves setting up a virtualized network using VirtualBox, where a Windows Server 2019 virtual machine (VM) serves as the Domain Controller, hosting Active Directory (AD) for managing user accounts. The Domain Controller is configured with two network adapters: one for external internet access and another for a private network to connect client machines. A DHCP server is set up on the Domain Controller to assign IPs to clients, and NAT and routing are configured to enable clients on the private network to access the internet. A PowerShell script is created to automate the addition of 1,000 users to Active Directory. Additionally, a Windows 10 VM is created as a client, which connects to the private network, logs in using a domain account, and demonstrates successful integration into the domain.
 
-![Screenshot 2025-01-03 202721](https://github.com/user-attachments/assets/69411b4f-465c-49f8-b203-8bd0b2966625)
+![](https://github.com/user-attachments/assets/69411b4f-465c-49f8-b203-8bd0b2966625)
 # 1. Downloaded Content 
 - Download and install VirtualBox on your host machine.
 - Obtain the Windows 10 ISO and Windows Server 2019 ISO files. These will be used to create the two virtual machines (VMs).
