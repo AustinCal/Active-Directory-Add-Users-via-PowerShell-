@@ -24,11 +24,14 @@ Adapter 2: Connects to a private network, which the client machines will use to 
 ![](https://github.com/user-attachments/assets/135840d6-1124-43db-8886-ec5ed6beabc1)
 
 
-# 4. Set Up NAT and Routing
+# 4. Set Up NAT, Routing/RAS, and DHCP
 - Configure Network Address Translation (NAT) and routing on the Domain Controller so that private clients can access the internet.
 - Enable DHCP on the Domain Controller to automatically assign IP addresses to the client machines on the private network.
 
 ![image](https://github.com/user-attachments/assets/7f89d584-51e4-4e06-b6e4-0cfb64e3c3be)
+![image](https://github.com/user-attachments/assets/7925a6d4-9572-454a-9698-f5819ddc65c2)
+![image](https://github.com/user-attachments/assets/9c084a10-69da-4fbf-af10-c80418da4da8)
+
 
 # 5. Automate User Creation
 - Develop a PowerShell script to automatically add 1,000 user accounts to Active Directory. This script will streamline the process of creating a large number of users for the network.
