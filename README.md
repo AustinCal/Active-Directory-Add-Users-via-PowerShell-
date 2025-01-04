@@ -11,6 +11,9 @@ This project involves setting up a virtualized network using VirtualBox, where a
 - Configure the VM with two network adapters:
 Adapter 1: Connects to the outside internet, providing external connectivity.
 Adapter 2: Connects to a private network, which the client machines will use to connect to the Domain Controller.
+
+![image](https://github.com/user-attachments/assets/e24c3247-3790-4588-968f-47839427e7e6)
+
 # 3. Install Active Directory and Create the Domain
 - On the Domain Controller VM, install Active Directory through Windows Server 2019.
 - Create a domain within Active Directory for your network. This domain will be used for managing user accounts and authentication.
