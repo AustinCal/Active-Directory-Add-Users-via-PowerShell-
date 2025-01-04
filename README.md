@@ -12,7 +12,7 @@ This project involves setting up a virtualized network using VirtualBox, where a
 Adapter 1: Connects to the outside internet, providing external connectivity.
 Adapter 2: Connects to a private network, which the client machines will use to connect to the Domain Controller.
 
-- Use the "Desktop Experience" option during the installation and choose a custom installation file. The default "Administrator" username will appear, and set the password to "Password1" for the account.
+- Use the "Desktop Experience" option during the installation and choose a custom installation file. The default "Administrator" username will appear, and set the password to "Password1" for the account. This will be the password for everything so there is now wasted time!
 ![image](https://github.com/user-attachments/assets/e24c3247-3790-4588-968f-47839427e7e6)
 
 # 3. Install Active Directory and Create the Domain
