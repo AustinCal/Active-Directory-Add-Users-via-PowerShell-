@@ -21,6 +21,8 @@ Adapter 2: Connects to a private network, which the client machines will use to 
 - Create a domain within Active Directory for your network. This domain will be used for managing user accounts and authentication.
 
 ![image](https://github.com/user-attachments/assets/399244df-cdb6-4b67-bb31-42a45aa85b7a)
+![](https://github.com/user-attachments/assets/135840d6-1124-43db-8886-ec5ed6beabc1)
+
 
 # 4. Set Up NAT and Routing
 - Configure Network Address Translation (NAT) and routing on the Domain Controller so that private clients can access the internet.
